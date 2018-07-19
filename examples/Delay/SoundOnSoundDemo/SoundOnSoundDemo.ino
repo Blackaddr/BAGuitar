@@ -117,12 +117,12 @@ delay(100);
   
   // Configure which MIDI CC's will control the effect parameters
   sos.mapMidiControl(AudioEffectSOS::BYPASS,16);
-  sos.mapMidiControl(AudioEffectSOS::CLEAR_FEEDBACK_TRIGGER,22);
-  sos.mapMidiControl(AudioEffectSOS::GATE_TRIGGER,23);
+  sos.mapMidiControl(AudioEffectSOS::CLEAR_FEEDBACK_TRIGGER,17);
+  sos.mapMidiControl(AudioEffectSOS::GATE_TRIGGER,18);
   sos.mapMidiControl(AudioEffectSOS::GATE_OPEN_TIME,20);
   sos.mapMidiControl(AudioEffectSOS::GATE_CLOSE_TIME,21);
-  sos.mapMidiControl(AudioEffectSOS::FEEDBACK,24);
-  sos.mapMidiControl(AudioEffectSOS::VOLUME,17);
+  sos.mapMidiControl(AudioEffectSOS::FEEDBACK,22);
+  sos.mapMidiControl(AudioEffectSOS::VOLUME,23);
 
   // Besure to enable the delay. When disabled, audio is is completely blocked
   // to minimize resources to nearly zero.
