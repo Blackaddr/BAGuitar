@@ -1,5 +1,5 @@
 ## BAGuitar Library
-This library is DEPRECATED. Please switch to using BALibrary.
+This library is DEPRECATED. Please switch to using [BALibrary](https://github.com/Blackaddr/BALibrary).
 
 **REQUIREMENTS**
 This library uses a forked (modified) version of [DmaSpi](https://github.com/Blackaddr/DmaSpi) for Teensy, a library that extends SPI functionality to support DMA. This allows audio programs to use external SPI RAM with very little processor overhead.
